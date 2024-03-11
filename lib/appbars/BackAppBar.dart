@@ -35,12 +35,12 @@ class _BackAppBarState extends State<BackAppBar> {
         // backgroundColor: Colors.amberAccent,
         elevation: 0,
         titleSpacing: 0,
-        // title: Text(
-        //   "Back Icon AppBar ",
-        //   style: TextStyle(
-        //     fontSize: 20,
-        //   ),
-        // ),
+        title: Text(
+          "Back Icon AppBar ",
+          style: TextStyle(
+            fontSize: 20,
+          ),
+        ),
         leading: IconButton(
           iconSize: 30,
           icon: Icon(Icons.chevron_left_rounded),
